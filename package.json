@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "npm run init_tables && jest --forceExit",
+    "init_tables": "node src/configs/createSchema.js && node src/configs/initTables.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.5.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.1",
+    "supertest": "^6.3.3"
+  },
+  "name": "bed-mock-test-exercise-wcf23-360817d7239b69c45ea70bd2bb5714c6b67bf766",
+  "description": "This repository contains the source code and assets for the Mock Test. The mock test is designed to assess your understanding and skills in implementing endpoints related to planting and managing digital trees using Node.js, Express, and MySQL.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Woo Chyi Feng",
+  "license": "ISC"
+}
